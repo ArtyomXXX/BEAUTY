@@ -1,0 +1,107 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 132px;
+    background-color: #EFEFEF;
+}
+
+.cards__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin: 0 auto 100px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.cards__title {    
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 38px;
+    position: relative;
+}
+
+.car-icon {
+    position: absolute;
+    top: -20px;
+    right: 50px;
+}
+
+.card {
+    width: 255px;
+    height: auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px 0;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.card__img {
+    margin: 0 auto 40px;
+}
+
+.description {
+    max-width: 200px;
+    margin: 0 auto 20px;
+    color: #333333;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card__button {
+    width: 130px;
+    height: 35px;
+    color: #ffffff;
+    background: #66C05D;
+    border-radius: 30px;
+    transition: .1s linear;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #17f802;
+    }
+}
+
+.green-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 560px;
+    height: 212px;
+    background: #66C05D;
+    padding: 35px 40px;
+
+    h3 {
+       font-size: 18px;
+       margin-bottom: 25px;
+    }
+
+    p {
+        max-width: 270px;
+        margin-bottom: 25px;
+    }
+}
+
+input[type=email] {
+    width: 225px;
+    height: 35px;
+    line-height: 16px;
+    text-align: center;
+    color: #C4C4C4;
+    border-radius: 30px;
+}
